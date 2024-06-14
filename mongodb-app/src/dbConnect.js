@@ -1,5 +1,6 @@
 "use strict";
 const Mongoose = require("mongoose");
+
 const mongoUrl = `mongodb://dbadmin:Password1@localhost:27017/myFirstDB?authSource=admin`;
 // if the connection fails, try 127.0.0.1 instead of localhost below
 const uri = process.env.DB_URI || mongoUrl;
